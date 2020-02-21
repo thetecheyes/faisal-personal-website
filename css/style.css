@@ -20,16 +20,16 @@ body {
     margin-left: 15%;
     margin-top: 8%;
 }
-h1.unbold-h1 {
-    font-weight: 400;
-    margin: 0;
-}
 h1 {
     font-size: 45px;
     font-weight: 700;
 }
+.unbold-h1 {
+    font-weight: 400;
+    margin: 0;
+}
 p {
-    line-height: 1.5em;
+    line-height: 1.8em;
     text-align: justify;
 }
 img {
@@ -65,6 +65,33 @@ img {
 .biography-section .right-section {
     margin-top: 10%;
 }
-.biography-section h1 {
+.biography-section h2 {
     margin-bottom: 40px;
+    font-size: 35px;
+}
+
+/* Latest Work Section */
+
+.latest-work-section {
+    background-image: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 750px;
+}
+.latest-title h1 {
+    text-align: center;
+    margin: 100px 0 0;
+}
+.work-showcase {
+    height: 500px;
+    padding: 100px;
+}
+.work-showcase .work-image {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.work-showcase img {
+    width: 80%;
 }
