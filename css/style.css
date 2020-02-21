@@ -1,3 +1,50 @@
-h1  {
-    color: slateblue;
+body {
+    font-family: 'Bitter', serif;
+    margin: 0;
+}
+
+/* Header Section */
+
+.header-section {
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 900px;
+    padding-top: 50px;
+}
+.half-section {
+    width: 40%;
+    margin-left: 7%;
+    float: left;
+}
+.middle-align {
+    margin-top: 100px;
+}
+h1.unbold-h1 {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+p {
+    line-height: 1.5em;
+}
+img {
+    width: 100%;
+}
+.colored-style {
+    color: #EC4C7A;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.linked-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    color: white;
+    background-image: linear-gradient(90deg, #EC4F92, #ED4B73);
+    border-radius: 5px;
 }
